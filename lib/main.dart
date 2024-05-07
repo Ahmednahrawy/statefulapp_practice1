@@ -9,6 +9,7 @@ void main() {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      themeMode: ThemeMode.system,
       home: ApiProvider(api: Api(), child: const HomePage()),
     ),
   );
